@@ -30,7 +30,7 @@ function customSearch(search, presearch){
               // console.log(stringSimilarity.compareTwoStrings(kw, temp))
             }
         })
-        percent += weight*i
+        percent += weight*(i+1)
       })
       // console.log(percent)
       ele.percent = percent
